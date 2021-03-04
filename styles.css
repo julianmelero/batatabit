@@ -151,14 +151,24 @@ main {
   line-height: 1.6rem;
   color: #757575;
 }
+.main-tables-container {
+  display: flex;
+  width: 100%;
+  overflow-x: scroll;
+  overscroll-behavior-x: contain;
+  scroll-snap-type:x proximity;
+  margin: 0 5px;
+
+}
 
 .main-currency-table, .main-comission-table {
   width: 70%;
-  min-width: 235px;
+  min-width: 320px;
   max-width: 500px;
   height: 360px;
   margin: 0 auto;
   font-family: "Inter", sans-serif;
+  scroll-snap-type: center;
 }
 
 .main-currency-table .currency-table--title {
