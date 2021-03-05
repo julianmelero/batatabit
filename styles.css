@@ -496,6 +496,7 @@ main {
   line-height: 1.8rem;
   color: var(--black);
   font-family: "DM Sans" , sans-serif;
+  cursor: pointer;
 }
 
 .plan-card--calltoaction span {
